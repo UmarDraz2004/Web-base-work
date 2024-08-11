@@ -1,0 +1,11 @@
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
+// Define custom colors
+$custom-colors: (
+    "navy-blue": rgb(0, 34, 82),
+    "black-el": #434343
+);
+
+// Merge custom colors with Bootstrap's theme colors
+$theme-colors: map-merge($theme-colors, $custom-colors);
