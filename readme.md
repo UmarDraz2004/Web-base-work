@@ -2,8 +2,8 @@
 
 This repository contains a collection of various web development projects that I've worked on. Each project showcases different aspects of HTML, CSS, JavaScript, and more. Feel free to explore, clone, and use these projects for your own learning and development.
 
-You can use the website through this link
-https://umardraz2004.github.io/Web-Based-Work/(project name you want to see)
+- You can use the website through this link:
+https://umardraz2004.github.io/Web-Based-Work/ (project name you want to see)
 
 ## Project List
 
