@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/main.min.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Website Template</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-white my-3 sticky-top" id="navbar-sticky">
+        <div class="container fw-semibold">
+            <a class="navbar-brand fs-3 sticky-links text-black-el" href="#">Logo Here</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item pe-3">
+                        <a class="nav-link sticky-links text-black-el" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item pe-3">
+                        <a class="nav-link sticky-links text-black-el" href="#">Services</a>
+                    </li>
+                    <li class="nav-item pe-3">
+                        <a class="nav-link sticky-links text-black-el" href="#">Products</a>
+                    </li>
+                    <li class="nav-item pe-3">
+                        <a class="nav-link sticky-links text-black-el" href="#">Events</a>
+                    </li>
+                    <li class="nav-item pe-3">
+                        <a class="nav-link sticky-links text-black-el" href="#">About us</a>
+                    </li>
+                    <li class="nav-item pe-3">
+                        <a class="nav-link sticky-links text-black-el" href="#">Contact</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <button class="btn text-uppercase sticky-links fw-medium me-3" type="submit">sign in</button>
+                    <button class="btn btn-outline-warning hover-text-white text-uppercase" type="submit">sign
+                        up</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <section class="sec-header">
+        <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <!-- First Slide -->
+                <div class="carousel-item active">
+                    <div class="hero-section bg-light">
+                        <div class="container py-5 d-flex justify-content-center">
+                            <div class="my-auto">
+                                <div class="fs-1 fw-bold mb-3 text-black-el text-sm-center text-lg-start">Welcome to Our
+                                    Website
+                                    Development</div>
+                                <p class="fs-5 text-black mb-3 text-sm-center text-lg-start">Lorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit.
+                                    Donec vel placerat ligula, at volutpat velit. Nulla facilisi.</p>
+                                <div class="d-flex justify-content-center justify-content-lg-start">
+                                    <a href="#" class="btn btn-warning text-white mt-3">Learn More</a>
+                                </div>
+                            </div>
+                            <div class="d-none d-lg-flex justify-content-center align-content-center w-100 py-5">
+                                <img class="w-75" src="assets/image/hero-section.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Second Slide -->
+                <div class="carousel-item">
+                    <div class="hero-section bg-light">
+                        <div class="container py-5 d-flex justify-content-center">
+                            <div class="my-auto">
+                                <div class="fs-1 fw-bold mb-3 text-black-el text-sm-center text-lg-start">Consulting
+                                    Implementation & Custom
+                                    Development</div>
+                                <p class="fs-5 text-black mb-3 text-sm-center text-lg-start">Lorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit.
+                                    Donec vel placerat ligula, at volutpat velit. Nulla facilisi.</p>
+                                <div class="d-flex justify-content-center justify-content-lg-start">
+                                    <a href="#" class="btn btn-warning text-white mt-3">Learn More</a>
+                                </div>
+                            </div>
+                            <div class="d-none d-lg-flex justify-content-center align-content-center w-100 py-5">
+                                <img class="w-75" src="assets/image/img2.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Third Slide -->
+                <div class="carousel-item">
+                    <div class="hero-section bg-light">
+                        <div class="container py-5 d-flex justify-content-center">
+                            <div class="my-4 py-1 py-lg-0 my-lg-auto">
+                                <div class="fs-1 fw-bold mb-3 text-black-el text-sm-center text-lg-start">Marketing
+                                    Automation
+                                    Development</div>
+                                <p class="fs-5 text-black mb-3 text-sm-center text-lg-start">Lorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit.
+                                    Donec vel placerat ligula, at volutpat velit. Nulla facilisi.</p>
+                                <div class="d-flex justify-content-center justify-content-lg-start">
+                                    <a href="#" class="btn btn-warning text-white mt-3">Learn More</a>
+                                </div>
+                            </div>
+                            <div class="d-none d-lg-flex justify-content-center align-content-center w-100 py-5">
+                                <img class="w-75" src="assets/image/img3.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <button class="carousel-control-prev side-buttons" type="button" data-bs-target="#heroCarousel"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next side-buttons" type="button" data-bs-target="#heroCarousel"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <section class="mt-5">
+        <div class="container-fluid">
+            <div class="d-flex justify-content-center rotater-div mb-5">
+                <h1 class="position-relative"><span class="rotater"></span><span class="fw-semibold">Our Products</span></h1>
+            </div>
+            <div class="container d-flex mt-4">
+                <div class="row">
+                    <div class="col-4 h-100">
+                        <div class="card">
+                            <img src="assets/image/image.jpg" class="card-img-top" alt="...">
+                            <div class="card-body d-flex flex-column justify-content-between">
+                                <h5 class="card-title fs-4 fw-semibold">CRM</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Doloremque, suscipit.</p>
+                                <div class="d-flex align-items-center justify-content-end mt-3">
+                                    <a href="#" class="card-links">Read More</a>
+                                    <i class="fa-solid fa-arrow-right arrow-icon"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 ">
+                        <div class="card h-100">
+                            <img src="assets/image/image.jpg" class="card-img-top" alt="...">
+                            <div class="card-body d-flex flex-column justify-content-between">
+                                <h5 class="card-title fs-4 fw-semibold">ERP</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Doloremque, suscipit.</p>
+                                <div class="d-flex align-items-center justify-content-end mt-3">
+                                    <a href="#" class="card-links">Read More</a>
+                                    <i class="fa-solid fa-arrow-right arrow-icon"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 h-100">
+                        <div class="card">
+                            <img src="assets/image/image.jpg" class="card-img-top" alt="...">
+                            <div class="card-body d-flex flex-column justify-content-between">
+                                <h5 class="card-title fs-4 fw-semibold">Todo List</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Doloremque, suscipit.
+                                </p>
+                                <div class="d-flex align-items-center justify-content-end mt-3">
+                                    <a href="#" class="card-links">Read More</a>
+                                    <i class="fa-solid fa-arrow-right arrow-icon"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid mt-5">
+            <div class="d-flex justify-content-center rotater-div">
+                <h1 class="position-relative"><span class="rotater"></span><span class="fw-semibold">Our Services</span>
+                </h1>
+            </div>
+            <div class="container d-flex mt-5">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="card h-100">
+                            <img src="assets/image/image.jpg" class="card-img-top" alt="...">
+                            <div class="card-body d-flex flex-column justify-content-between">
+                                <h5 class="card-title fs-4 fw-semibold">Andriod Development</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <div class="d-flex align-items-center justify-content-end mt-3">
+                                    <a href="#" class="card-links">Read More</a>
+                                    <i class="fa-solid fa-arrow-right arrow-icon"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card h-100">
+                            <img src="assets/image/image.jpg" class="card-img-top" alt="...">
+                            <div class="card-body d-flex flex-column justify-content-between">
+                                <h5 class="card-title fs-4 fw-semibold">Web Development</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Doloremque, suscipit.</p>
+                                <div class="d-flex align-items-center justify-content-end mt-3">
+                                    <a href="#" class="card-links">Read More</a>
+                                    <i class="fa-solid fa-arrow-right arrow-icon"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card h-100">
+                            <img src="assets/image/image.jpg" class="card-img-top" alt="...">
+                            <div class="card-body d-flex flex-column justify-content-between">
+                                <h5 class="card-title fs-4 fw-semibold">Al & Machine learning</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Doloremque, suscipit.</p>
+                                <div class="d-flex align-items-center justify-content-end mt-3">
+                                    <a href="#" class="card-links">Read More</a>
+                                    <i class="fa-solid fa-arrow-right arrow-icon"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container mt-5">
+            <div class="d-flex justify-content-center rotater-div pb-5">
+                <h1 class="position-relative"><span class="rotater"></span><span class="fw-semibold">Contact</span></h1>
+            </div>
+            <div class="row">
+                <div class="col-4 text-bg-primary rounded">
+                    <div class="fs-3 fw-semibold py-5 d-flex justify-content-center">
+                        Our Contact Details
+                    </div>
+                    <div class="d-flex flex-column justify-content-between ps-4">
+                        <div class="d-flex align-items-center mb-5">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="60px" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path
+                                    d="M3 3H21C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3ZM20 7.23792L12.0718 14.338L4 7.21594V19H20V7.23792ZM4.51146 5L12.0619 11.662L19.501 5H4.51146Z">
+                                </path>
+                            </svg>
+                            <div class="ms-3">
+                                <div>Email Address:</div>
+                                <div>xyz@gmail.com</div>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center mb-5">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="60px" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path
+                                    d="M21 16.42V19.9561C21 20.4811 20.5941 20.9167 20.0705 20.9537C19.6331 20.9846 19.2763 21 19 21C10.1634 21 3 13.8366 3 5C3 4.72371 3.01545 4.36687 3.04635 3.9295C3.08337 3.40588 3.51894 3 4.04386 3H7.5801C7.83678 3 8.05176 3.19442 8.07753 3.4498C8.10067 3.67907 8.12218 3.86314 8.14207 4.00202C8.34435 5.41472 8.75753 6.75936 9.3487 8.00303C9.44359 8.20265 9.38171 8.44159 9.20185 8.57006L7.04355 10.1118C8.35752 13.1811 10.8189 15.6425 13.8882 16.9565L15.4271 14.8019C15.5572 14.6199 15.799 14.5573 16.001 14.6532C17.2446 15.2439 18.5891 15.6566 20.0016 15.8584C20.1396 15.8782 20.3225 15.8995 20.5502 15.9225C20.8056 15.9483 21 16.1633 21 16.42Z">
+                                </path>
+                            </svg>
+                            <div class="ms-3">
+                                <div>Contact No:</div>
+                                <div>+1 234 567 890</div>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="60px" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path
+                                    d="M18.364 17.364L12 23.7279L5.63604 17.364C2.12132 13.8492 2.12132 8.15076 5.63604 4.63604C9.15076 1.12132 14.8492 1.12132 18.364 4.63604C21.8787 8.15076 21.8787 13.8492 18.364 17.364ZM12 15C14.2091 15 16 13.2091 16 11C16 8.79086 14.2091 7 12 7C9.79086 7 8 8.79086 8 11C8 13.2091 9.79086 15 12 15ZM12 13C10.8954 13 10 12.1046 10 11C10 9.89543 10.8954 9 12 9C13.1046 9 14 9.89543 14 11C14 12.1046 13.1046 13 12 13Z">
+                                </path>
+                            </svg>
+                            <div class="ms-3">
+                                <div>Campus address:</div>
+                                <div>123 Main St, City, Country</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <form class="col-7 ms-5">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="subject" class="form-label">Subject</label>
+                        <input type="text" class="form-control" id="subject" placeholder="Enter subject" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" rows="4" placeholder="Enter your message"
+                            required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-dark text-white pt-5 mt-5">
+        <div class="container">
+            <div class="row">
+                <!-- Contact Info -->
+                <div class="col-md-4 mb-4">
+                    <h5>Contact Us</h5>
+                    <p><i class="bi bi-geo-alt"></i> 123 Main St, City, Country</p>
+                    <p><i class="bi bi-phone"></i> +1 234 567 890</p>
+                    <p><i class="bi bi-envelope"></i> info@example.com</p>
+                </div>
+                <!-- Links -->
+                <div class="col-md-4 mb-4">
+                    <h5>Useful Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white">Home</a></li>
+                        <li><a href="#" class="text-white">About</a></li>
+                        <li><a href="#" class="text-white">Services</a></li>
+                        <li><a href="#" class="text-white">Contact</a></li>
+                    </ul>
+                </div>
+                <!-- Social Media -->
+                <div class="col-md-4 mb-4">
+                    <h5>Follow Us</h5>
+                    <a href="#" class="text-white me-3"><svg xmlns="http://www.w3.org/2000/svg" width="30px"
+                            viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M13.001 19.9381C16.9473 19.446 20.001 16.0796 20.001 12C20.001 7.58172 16.4193 4 12.001 4C7.5827 4 4.00098 7.58172 4.00098 12C4.00098 16.0796 7.05467 19.446 11.001 19.9381V14H9.00098V12H11.001V10.3458C11.001 9.00855 11.1402 8.52362 11.4017 8.03473C11.6631 7.54584 12.0468 7.16216 12.5357 6.9007C12.9184 6.69604 13.3931 6.57252 14.2227 6.51954C14.5519 6.49851 14.9781 6.52533 15.501 6.6V8.5H15.001C14.0837 8.5 13.7052 8.54332 13.4789 8.66433C13.3386 8.73939 13.2404 8.83758 13.1653 8.97793C13.0443 9.20418 13.001 9.42853 13.001 10.3458V12H15.501L15.001 14H13.001V19.9381ZM12.001 22C6.47813 22 2.00098 17.5228 2.00098 12C2.00098 6.47715 6.47813 2 12.001 2C17.5238 2 22.001 6.47715 22.001 12C22.001 17.5228 17.5238 22 12.001 22Z">
+                            </path>
+                        </svg></a>
+                    <a href="#" class="text-white me-3"><svg xmlns="http://www.w3.org/2000/svg" width="30px"
+                            viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M12.001 9C10.3436 9 9.00098 10.3431 9.00098 12C9.00098 13.6573 10.3441 15 12.001 15C13.6583 15 15.001 13.6569 15.001 12C15.001 10.3427 13.6579 9 12.001 9ZM12.001 7C14.7614 7 17.001 9.2371 17.001 12C17.001 14.7605 14.7639 17 12.001 17C9.24051 17 7.00098 14.7629 7.00098 12C7.00098 9.23953 9.23808 7 12.001 7ZM18.501 6.74915C18.501 7.43926 17.9402 7.99917 17.251 7.99917C16.5609 7.99917 16.001 7.4384 16.001 6.74915C16.001 6.0599 16.5617 5.5 17.251 5.5C17.9393 5.49913 18.501 6.0599 18.501 6.74915ZM12.001 4C9.5265 4 9.12318 4.00655 7.97227 4.0578C7.18815 4.09461 6.66253 4.20007 6.17416 4.38967C5.74016 4.55799 5.42709 4.75898 5.09352 5.09255C4.75867 5.4274 4.55804 5.73963 4.3904 6.17383C4.20036 6.66332 4.09493 7.18811 4.05878 7.97115C4.00703 9.0752 4.00098 9.46105 4.00098 12C4.00098 14.4745 4.00753 14.8778 4.05877 16.0286C4.0956 16.8124 4.2012 17.3388 4.39034 17.826C4.5591 18.2606 4.7605 18.5744 5.09246 18.9064C5.42863 19.2421 5.74179 19.4434 6.17187 19.6094C6.66619 19.8005 7.19148 19.9061 7.97212 19.9422C9.07618 19.9939 9.46203 20 12.001 20C14.4755 20 14.8788 19.9934 16.0296 19.9422C16.8117 19.9055 17.3385 19.7996 17.827 19.6106C18.2604 19.4423 18.5752 19.2402 18.9074 18.9085C19.2436 18.5718 19.4445 18.2594 19.6107 17.8283C19.8013 17.3358 19.9071 16.8098 19.9432 16.0289C19.9949 14.9248 20.001 14.5389 20.001 12C20.001 9.52552 19.9944 9.12221 19.9432 7.97137C19.9064 7.18906 19.8005 6.66149 19.6113 6.17318C19.4434 5.74038 19.2417 5.42635 18.9084 5.09255C18.573 4.75715 18.2616 4.55693 17.8271 4.38942C17.338 4.19954 16.8124 4.09396 16.0298 4.05781C14.9258 4.00605 14.5399 4 12.001 4ZM12.001 2C14.7176 2 15.0568 2.01 16.1235 2.06C17.1876 2.10917 17.9135 2.2775 18.551 2.525C19.2101 2.77917 19.7668 3.1225 20.3226 3.67833C20.8776 4.23417 21.221 4.7925 21.476 5.45C21.7226 6.08667 21.891 6.81333 21.941 7.8775C21.9885 8.94417 22.001 9.28333 22.001 12C22.001 14.7167 21.991 15.0558 21.941 16.1225C21.8918 17.1867 21.7226 17.9125 21.476 18.55C21.2218 19.2092 20.8776 19.7658 20.3226 20.3217C19.7668 20.8767 19.2076 21.22 18.551 21.475C17.9135 21.7217 17.1876 21.89 16.1235 21.94C15.0568 21.9875 14.7176 22 12.001 22C9.28431 22 8.94514 21.99 7.87848 21.94C6.81431 21.8908 6.08931 21.7217 5.45098 21.475C4.79264 21.2208 4.23514 20.8767 3.67931 20.3217C3.12348 19.7658 2.78098 19.2067 2.52598 18.55C2.27848 17.9125 2.11098 17.1867 2.06098 16.1225C2.01348 15.0558 2.00098 14.7167 2.00098 12C2.00098 9.28333 2.01098 8.94417 2.06098 7.8775C2.11014 6.8125 2.27848 6.0875 2.52598 5.45C2.78014 4.79167 3.12348 4.23417 3.67931 3.67833C4.23514 3.1225 4.79348 2.78 5.45098 2.525C6.08848 2.2775 6.81348 2.11 7.87848 2.06C8.94514 2.0125 9.28431 2 12.001 2Z">
+                            </path>
+                        </svg></a>
+                    <a href="#" class="text-white me-3"><svg xmlns="http://www.w3.org/2000/svg" width="30px"
+                            viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M22.2125 5.65605C21.4491 5.99375 20.6395 6.21555 19.8106 6.31411C20.6839 5.79132 21.3374 4.9689 21.6493 4.00005C20.8287 4.48761 19.9305 4.83077 18.9938 5.01461C18.2031 4.17106 17.098 3.69303 15.9418 3.69434C13.6326 3.69434 11.7597 5.56661 11.7597 7.87683C11.7597 8.20458 11.7973 8.52242 11.8676 8.82909C8.39047 8.65404 5.31007 6.99005 3.24678 4.45941C2.87529 5.09767 2.68005 5.82318 2.68104 6.56167C2.68104 8.01259 3.4196 9.29324 4.54149 10.043C3.87737 10.022 3.22788 9.84264 2.64718 9.51973C2.64654 9.5373 2.64654 9.55487 2.64654 9.57148C2.64654 11.5984 4.08819 13.2892 6.00199 13.6731C5.6428 13.7703 5.27232 13.8194 4.90022 13.8191C4.62997 13.8191 4.36771 13.7942 4.11279 13.7453C4.64531 15.4065 6.18886 16.6159 8.0196 16.6491C6.53813 17.8118 4.70869 18.4426 2.82543 18.4399C2.49212 18.4402 2.15909 18.4205 1.82812 18.3811C3.74004 19.6102 5.96552 20.2625 8.23842 20.2601C15.9316 20.2601 20.138 13.8875 20.138 8.36111C20.138 8.1803 20.1336 7.99886 20.1256 7.81997C20.9443 7.22845 21.651 6.49567 22.2125 5.65605Z">
+                            </path>
+                        </svg></a>
+                    <a href="#" class="text-white"><svg xmlns="http://www.w3.org/2000/svg" width="30px"
+                            viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M12.001 9.55005C12.9181 8.61327 14.1121 8 15.501 8C18.5385 8 21.001 10.4624 21.001 13.5V21H19.001V13.5C19.001 11.567 17.434 10 15.501 10C13.568 10 12.001 11.567 12.001 13.5V21H10.001V8.5H12.001V9.55005ZM5.00098 6.5C4.17255 6.5 3.50098 5.82843 3.50098 5C3.50098 4.17157 4.17255 3.5 5.00098 3.5C5.8294 3.5 6.50098 4.17157 6.50098 5C6.50098 5.82843 5.8294 6.5 5.00098 6.5ZM4.00098 8.5H6.00098V21H4.00098V8.5Z">
+                            </path>
+                        </svg></a>
+                </div>
+            </div>
+            <div class="text-center py-3">
+                <p class="mb-0">&copy; 2024 Your Company. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="script/script.js"></script>
+</body>
+
+</html>
