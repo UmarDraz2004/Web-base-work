@@ -53,4 +53,4 @@ https://umardraz2004.github.io/Web-Based-Work/ (project name you want to see)
 - **Description**: A web template project that is currently incomplete.
 
 ### 15. Resolution calculator
-- **Description**: Resolution calculator, calculates the resolution of your desktop screena and calculates the browser inner resolution
+- **Description**: Resolution calculator, calculates the resolution of your desktop screen and calculates the browser inner resolution
