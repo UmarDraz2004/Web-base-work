@@ -1,4 +1,4 @@
-# Web Development Projects Repository
+# Web Development Projects Repository.
 
 This repository contains a collection of various web development projects that I've worked on. Each project showcases different aspects of HTML, CSS, JavaScript, and more. Feel free to explore, clone, and use these projects for your own learning and development.
 
